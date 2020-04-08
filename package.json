@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-replace": "^2.3.1",
+    "@types/download": "^6.2.4",
+    "@types/fs-extra": "^8.0.1",
+    "@types/js-yaml": "^3.12.2",
+    "@types/koa": "^2.11.1",
+    "@types/koa__router": "^8.0.2",
+    "@types/mime-types": "^2.1.0",
+    "@types/node-fetch": "^2.5.4",
+    "@types/uuid": "^3.4.7",
+    "builtin-modules": "^3.1.0",
+    "rollup": "^1.31.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "typescript": "^3.7.5"
+  },
+  "name": "serverless-docker",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "cachedir": "^2.3.0",
+    "decompress": "^4.2.0",
+    "fs-extra": "^8.1.0",
+    "get-port": "^5.1.1",
+    "js-yaml": "^3.13.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "node-fetch": "^2.6.0",
+    "uuid": "^3.4.0"
+  }
+}
